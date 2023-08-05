@@ -7,8 +7,10 @@
     #banner1 a.carousel-control-prev {
         left: 25%;
     }
+   
 }
 
+/* Desktops, large screens */
 @media (min-width: 992px) and (max-width: 1199px) {
     .navigation.navbar-dark .navbar-nav .nav-link {
         margin: 0 9px;
@@ -30,8 +32,12 @@
     .titlepage h2 {
         font-size: 38px;
     }
+    .follow{
+        
+    }
 }
 
+/* Small screens, laptops */
 @media (min-width: 768px) and (max-width: 991px) {
     .header {
         padding: 50px 50px;
@@ -75,6 +81,7 @@
     }
 }
 
+/* Ipad,tablet */
 @media (min-width: 576px) and (max-width: 767px) {
     .header {
         padding: 50px 50px;
@@ -145,6 +152,18 @@
     .margin_bottom1 {
         margin-bottom: 30px !important;
     }
+    .follow {
+        position: relative;
+        /* top: 45%; */
+        left: 27%;
+        margin-top: 10px;
+    }
+    .hehas{
+        margin-top: 26px;
+        position: relative;
+        /* top: 82%; */
+        margin-left: -19%;
+   }
 }
 
 @media (max-width: 575px) {
@@ -248,4 +267,6 @@
         background: url(../images/menu_icon.png);
         background-repeat: no-repeat;
     }
+
+  
 }
